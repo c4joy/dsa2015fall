@@ -1,11 +1,11 @@
-//#define  _CRT_SECURE_NO_WARNINGS 
+#define  _CRT_SECURE_NO_WARNINGS 
 #include <stdlib.h>
 #include <stdio.h>
 #define func(x,y) (a[i][1] * x + a[i][0] * y - a[i][0] * a[i][1])
-int main()
+int main1()
 {
 	int n, m; 
-	int a[100000][2];
+	int a[100002][2];
 	scanf("%d %d", &n, &m);
 	for (int i = 0; i < n; i++)
 		scanf("%d %d", &a[i][0], &a[i][1]);
