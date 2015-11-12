@@ -123,6 +123,9 @@
     <ClCompile Include="..\..\..\..\..\Visual Studio 2015\Projects\dsa2015\thu\assignment2\assignment2\2_3rebuild.cpp" />
     <ClCompile Include="..\..\..\..\..\Visual Studio 2015\Projects\dsa2015\thu\assignment2\assignment2\2_4queap.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
